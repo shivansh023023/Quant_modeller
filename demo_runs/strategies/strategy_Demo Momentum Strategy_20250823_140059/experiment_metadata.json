@@ -1,0 +1,35 @@
+{
+  "id": "strategy_Demo Momentum Strategy_20250823_140059",
+  "type": "strategy",
+  "strategy_spec": "name='Demo Momentum Strategy' description='A simple momentum-based trading strategy' version='1.0.0' universe=['AAPL', 'GOOGL', 'MSFT', 'AMZN', 'TSLA'] start_date=datetime.datetime(2024, 8, 23, 14, 0, 58, 864455) end_date=datetime.datetime(2025, 8, 23, 14, 0, 58, 864467) features=[FeatureSpec(name='price_momentum', feature_type=<FeatureType.PRICE_BASED: 'price_based'>, lookback_period=20, parameters={'method': 'returns'})] target=<TargetType.NEXT_DAY_RETURN: 'next_day_return'> target_lookback=1 entry_rules=EntryExitRule(condition='momentum > 0.02', lookback_period=20) exit_rules=EntryExitRule(condition='momentum < -0.01', lookback_period=10) holding_period=5 position_sizing=PositionSizing(method='fixed_size', volatility_target=None, risk_per_trade=None, max_position_size=0.2) max_positions=3 stop_loss=None take_profit=None cv_config=CrossValidationConfig(validation_type=<ValidationType.WALK_FORWARD: 'walk_forward'>, n_splits=5, train_size=0.7, purge_period=10, embargo_period=5) tags=[] author='Unknown' created_at=datetime.datetime(2025, 8, 23, 14, 0, 58, 864709)",
+  "start_time": "2025-08-23T14:00:59.460360",
+  "status": "completed",
+  "output_dir": "demo_runs\\strategies\\strategy_Demo Momentum Strategy_20250823_140059",
+  "description": "Demo strategy experiment",
+  "tags": {
+    "demo": "true",
+    "type": "momentum"
+  },
+  "runs": [
+    {
+      "name": "feature_generation",
+      "type": "info",
+      "timestamp": "2025-08-23T14:00:59.461717",
+      "data": {
+        "features_created": 5,
+        "processing_time": 0.5
+      }
+    },
+    {
+      "name": "model_training",
+      "type": "metrics",
+      "timestamp": "2025-08-23T14:00:59.462571",
+      "data": {
+        "accuracy": 0.75,
+        "training_time": 2.1
+      }
+    }
+  ],
+  "results": {},
+  "end_time": "2025-08-23T14:00:59.463552"
+}

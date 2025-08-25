@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "created": "2025-08-25T21:47:26.146950",
+    "version": "1.0.0",
+    "description": "Feature registry for Quant Lab trading strategies",
+    "last_updated": "2025-08-25T23:23:42.563153",
+    "feature_count": 2
+  },
+  "features": {
+    "custom_ma": {
+      "name": "custom_ma",
+      "feature_type": "price_based",
+      "lookback_period": 20,
+      "parameters": {
+        "period": 20
+      }
+    },
+    "test_alternative": {
+      "name": "test_alternative",
+      "feature_type": "technical_indicator",
+      "lookback_period": 10,
+      "parameters": {}
+    }
+  }
+}

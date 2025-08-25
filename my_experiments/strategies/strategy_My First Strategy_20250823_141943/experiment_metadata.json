@@ -1,0 +1,36 @@
+{
+  "id": "strategy_My First Strategy_20250823_141943",
+  "type": "strategy",
+  "strategy_spec": "name='My First Strategy' description='A simple mean reversion strategy' version='1.0.0' universe=['AAPL', 'GOOGL', 'MSFT'] start_date=datetime.datetime(2024, 8, 23, 14, 19, 43, 212004) end_date=datetime.datetime(2025, 8, 23, 14, 19, 43, 212013) features=[FeatureSpec(name='price_deviation', feature_type=<FeatureType.PRICE_BASED: 'price_based'>, lookback_period=20, parameters={'method': 'z_score'})] target=<TargetType.NEXT_DAY_RETURN: 'next_day_return'> target_lookback=1 entry_rules=EntryExitRule(condition='price_deviation < -1.5', lookback_period=5) exit_rules=EntryExitRule(condition='price_deviation > 0.5', lookback_period=3) holding_period=10 position_sizing=PositionSizing(method='fixed_size', volatility_target=None, risk_per_trade=None, max_position_size=0.2) max_positions=2 stop_loss=None take_profit=None cv_config=CrossValidationConfig(validation_type=<ValidationType.WALK_FORWARD: 'walk_forward'>, n_splits=3, train_size=0.7, purge_period=10, embargo_period=5) tags=[] author='Unknown' created_at=datetime.datetime(2025, 8, 23, 14, 19, 43, 212189)",
+  "start_time": "2025-08-23T14:19:43.588992",
+  "status": "completed",
+  "output_dir": "my_experiments\\strategies\\strategy_My First Strategy_20250823_141943",
+  "description": "My first quant strategy",
+  "tags": {
+    "strategy_type": "mean_reversion",
+    "experience": "beginner"
+  },
+  "runs": [
+    {
+      "name": "strategy_creation",
+      "type": "info",
+      "timestamp": "2025-08-23T14:19:43.590513",
+      "data": {
+        "strategy_name": "My First Strategy",
+        "universe_size": 3
+      }
+    },
+    {
+      "name": "performance_results",
+      "type": "metrics",
+      "timestamp": "2025-08-23T14:19:43.591620",
+      "data": {
+        "sharpe_ratio": 1.17674184851699,
+        "max_drawdown": 0,
+        "annualized_return": 0.29682847394445355
+      }
+    }
+  ],
+  "results": {},
+  "end_time": "2025-08-23T14:19:43.592588"
+}

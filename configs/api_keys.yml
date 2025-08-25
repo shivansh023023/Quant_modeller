@@ -1,0 +1,36 @@
+# API Keys Configuration Template
+# 
+# IMPORTANT: Never commit actual API keys to version control!
+# Copy this file to api_keys_local.yml and add your actual keys there.
+# Add api_keys_local.yml to .gitignore
+
+# Alpha Vantage API Configuration
+alpha_vantage:
+  api_key: "YFT6Q98WXGUJ5AD8"
+  base_url: "https://www.alphavantage.co/query"
+  rate_limit: 5  # requests per minute
+  daily_limit: 500  # requests per day
+
+# Google Gemini AI API Configuration
+gemini:
+  api_key: "AIzaSyCbLUgagRZNqn1nyiaybJtAAykDYo8xeVU"
+  base_url: "https://generativelanguage.googleapis.com/v1beta"
+  model: "gemini-pro"
+  rate_limit: 15  # requests per minute
+  max_tokens: 2048
+
+# Alternative Data Sources (No API keys needed)
+yfinance:
+  enabled: true
+  rate_limit: 2  # requests per second
+  timeout: 10  # seconds
+
+# Optional: Additional Data Sources
+# quandl:
+#   api_key: "YOUR_QUANDL_API_KEY_HERE"
+
+# polygon:
+#   api_key: "YOUR_POLYGON_API_KEY_HERE"
+
+# iex_cloud:
+#   api_key: "YOUR_IEX_CLOUD_API_KEY_HERE"
