@@ -1,4 +1,4 @@
-# 🚀 Quant Modeller - AI-Powered Quantitative Trading Platform
+#  Quant Modeller - AI-Powered Quantitative Trading Platform
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -7,22 +7,22 @@
 
 > **A comprehensive research workbench for systematic trading strategies, inspired by Two Sigma's quantitative research workflow**
 
-## 🎯 Overview
+##  Overview
 
 **Quant Modeller** is a sophisticated, AI-powered quantitative trading strategy development platform that transforms natural language trading ideas into robust, validated strategies with professional-grade analytics and risk management.
 
-### ✨ Key Features
+###  Key Features
 
-- 🤖 **AI-Powered Strategy Generation** - Convert natural language ideas to structured strategies
-- 📊 **Professional Analytics** - 40+ performance and risk metrics
-- 🔬 **Rigorous Validation** - Walk-forward analysis with purged cross-validation
-- 🏗️ **Model Zoo** - 23+ ML models including ensembles and deep learning
-- 📈 **Advanced Backtesting** - Realistic transaction costs and slippage modeling
-- 🎨 **Interactive Dashboards** - Professional visualization suite
-- 🔄 **Experiment Tracking** - MLflow integration for reproducible research
-- 📝 **Auto-Generated Reports** - AI-powered research note generation
+-  **AI-Powered Strategy Generation** - Convert natural language ideas to structured strategies
+-  **Professional Analytics** - 40+ performance and risk metrics
+-  **Rigorous Validation** - Walk-forward analysis with purged cross-validation
+-  **Model Zoo** - 23+ ML models including ensembles and deep learning
+-  **Advanced Backtesting** - Realistic transaction costs and slippage modeling
+-  **Interactive Dashboards** - Professional visualization suite
+-  **Experiment Tracking** - MLflow integration for reproducible research
+-  **Auto-Generated Reports** - AI-powered research note generation
 
-## 🏆 What Makes This Special
+##  What Makes This Special
 
 - **Production-Ready**: Enterprise-grade code quality with comprehensive testing
 - **Institutional-Quality**: Features used by top-tier hedge funds and asset managers
@@ -30,7 +30,7 @@
 - **Data Leakage Prevention**: Built-in temporal validation and purging mechanisms
 - **Comprehensive**: End-to-end workflow from idea generation to deployment
 
-## 📸 Demo
+##  Demo
 
 ```bash
 # Quick start demo
@@ -39,7 +39,7 @@ python demo.py
 
 *Sample output showing strategy performance metrics and visualizations*
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Quant Modeller/
@@ -57,7 +57,7 @@ Quant Modeller/
 └── data/                  # Data storage with automated cataloging
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Installation
 
