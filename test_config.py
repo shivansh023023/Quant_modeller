@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Test script for Quant Lab configuration system.
+Test script for Quant Lab configuration system
 
 This script tests the configuration manager and API key handling.
 """
