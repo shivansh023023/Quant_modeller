@@ -1,5 +1,5 @@
 Markdown
-# QuantModeller: Systematic Trading Research Framework.
+# QuantModeller: Systematic Trading Research Framework
 
 ### **A Technical Workbench for Strategy Development and ML Validation**
 
