@@ -9,7 +9,7 @@ complex technical indicator calculations.
 
 Strategy: Simple Momentum + RSI
 - Buy when 20-day returns > 5% and RSI < 70.
-- Sell when 20-day returns < 2% or RSI > 75
+- Sell when 20-day returns < 2% or RSI > 75.
 - Equal weight position sizing with basic risk management
 """
 
