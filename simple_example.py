@@ -4,7 +4,7 @@ Simple Example: How to Use Quant Lab
 
 This script shows the exact workflow a user should follow:
 1. Create a strategy.
-2. Test it with sample data
+2. Test it with sample data.
 3. Analyze results
 4. Generate visualizations
 """
