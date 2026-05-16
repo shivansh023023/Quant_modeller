@@ -3,7 +3,7 @@
 Custom Smart Momentum Algorithm Example
 =====================================
 
-This is a complete example of creating your own quantitative trading algorithm
+This is a complete example of creating your own quantitative trading algorithm.
 using the AI-Powered Quantitative Trading Platform.
 
 Strategy: Smart Momentum with Risk Management
