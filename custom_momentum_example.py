@@ -8,7 +8,7 @@ using the AI-Powered Quantitative Trading Platform.
 
 Strategy: Smart Momentum with Risk Management
 - Buys stocks with strong momentum but filters out overly volatile periods
-- Uses multiple technical indicators for robust signals
+- Uses multiple technical indicators for robust signals.
 - Implements proper risk management and position sizing
 """
 
