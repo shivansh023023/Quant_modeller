@@ -3,7 +3,7 @@
 Demo script for Quant Lab system.
 
 This script demonstrates the basic capabilities of the Quant Lab.
-AI-powered quantitative trading strategy development tool.
+AI-powered quantitative trading strategy development tool
 """
 
 import sys
