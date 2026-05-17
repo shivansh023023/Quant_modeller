@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Custom Smart Momentum Algorithm Example
+Custom Smart Momentum Algorithm Example.
 =====================================
 
 This is a complete example of creating your own quantitative trading algorithm.
