@@ -11,7 +11,7 @@ python simple_custom_algorithm.py
 ```
 
 This demonstrates a **Simple Momentum + RSI Strategy** that:
-- ✅ Generated **38.3% total returns** (11.2% annually)
+- ✅ Generated **38.3% total returns** (11.2% annually).
 - ✅ Achieved **Sharpe Ratio of 1.43** (excellent risk-adjusted returns)
 - ✅ Only **6.77% maximum drawdown** (low risk)
 - ✅ Made **480 trades** over 3 years on 8 tech stocks
