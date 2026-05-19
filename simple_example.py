@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple Example: How to Use Quant Lab
+Simple Example: How to Use Quant Lab.
 
 This script shows the exact workflow a user should follow:
 1. Create a strategy.
