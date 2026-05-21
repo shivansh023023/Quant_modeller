@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Simple Custom Momentum Algorithm Demo
+Simple Custom Momentum Algorithm Demo.
 =====================================
 
 This demonstrates how to create your own quantitative trading algorithm
