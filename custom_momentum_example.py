@@ -7,7 +7,7 @@ This is a complete example of creating your own quantitative trading algorithm.
 using the AI-Powered Quantitative Trading Platform.
 
 Strategy: Smart Momentum with Risk Management
-- Buys stocks with strong momentum but filters out overly volatile periods
+- Buys stocks with strong momentum but filters out overly volatile periods.
 - Uses multiple technical indicators for robust signals.
 - Implements proper risk management and position sizing
 """
