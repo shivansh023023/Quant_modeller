@@ -28,7 +28,7 @@ sns.set_palette("husl")
 
 class SmartMomentumAlgorithm:
     """
-    Custom Smart Momentum Trading Algorithm
+    Custom Smart Momentum Trading Algorithm.
     
     This algorithm combines multiple momentum indicators with volatility filtering.
     to create a robust trading strategy.
