@@ -30,7 +30,7 @@ class SmartMomentumAlgorithm:
     """
     Custom Smart Momentum Trading Algorithm
     
-    This algorithm combines multiple momentum indicators with volatility filtering
+    This algorithm combines multiple momentum indicators with volatility filtering.
     to create a robust trading strategy.
     """
     
