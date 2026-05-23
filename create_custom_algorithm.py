@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Custom Algorithm Creation: Smart Momentum Strategy
+Custom Algorithm Creation: Smart Momentum Strategy.
 ==================================================
 
 This script demonstrates how to create your own quantitative trading algorithm
