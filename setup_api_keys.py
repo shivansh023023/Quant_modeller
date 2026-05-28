@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-API Key Setup Script for Quant Lab
+API Key Setup Script for Quant Lab.
 
 This script helps you set up your API keys for Quant Lab
 Run this script to configure your Alpha Vantage and Gemini API keys.
