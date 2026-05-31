@@ -4,7 +4,7 @@ Custom Algorithm Creation: Smart Momentum Strategy.
 ==================================================
 
 This script demonstrates how to create your own quantitative trading algorithm.
-using the AI-Powered Quantitative Trading Platform
+using the AI-Powered Quantitative Trading Platform.
 
 Strategy Idea: "Buy stocks showing strong momentum but avoid overly volatile periods"
 """
