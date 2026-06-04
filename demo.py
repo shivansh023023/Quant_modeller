@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Demo script for Quant Lab system.
+Demo script for Quant Lab system
 
 This script demonstrates the basic capabilities of the Quant Lab.
 AI-powered quantitative trading strategy development tool
